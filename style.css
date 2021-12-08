@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond&family=Indie+Flower&family=Kalam:wght@300&family=Montagu+Slab:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,400;1,500&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+*
+
+
+:root{
+    --parimary-color:#7e51c7;
+}
+body{
+    background-color:rgb(223, 233, 236);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+
+
+}
+.hadding{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+     color:var(--parimary-color);  
+     padding: 0rem 1rem;
+}
+.discription{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1rem;    
+}
+input{
+    padding:1rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    border-color: var(--parimary-color); 
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+#check-button{
+    background-color: var(--parimary-color);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    color: rgb(8, 8, 8);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+#error-message{
+    display: block;
+    margin: .5rem;
+    font-size: large;
+}
+caption{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+th,td{
+    border: 2px solid var(--parimary-color);
+    border-collapse: collapse;
+    padding:.5rem;
+
+
+}
+h1{
+    font-weight:bold;
+    font-family:'Montserrat', sans-serif;
+}
+
+.change-table{
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+	
+	
+	
