@@ -57,10 +57,12 @@ caption{
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-th,td{
-    border: 2px solid var(--parimary-color);
+table, th, td{
+    border: 1px solid black;
     border-collapse: collapse;
     padding:.5rem;
+    table-layout: fixed;
+    /* margin: auto; */
 
 
 }
@@ -69,13 +71,7 @@ h1{
     font-family:'Montserrat', sans-serif;
 }
 
-.change-table{
-    width: 50%;
-    text-align: center;
-    border-collapse: collapse;
-    margin: auto;
 
-}
 
 	
 	
